@@ -1,0 +1,69 @@
+to search -- devdocs
+
+[INLINE Css]
+To directly change the background ..... in body tag write..
+     <body style="background-color :pink;">  (write the color or the hash value #example)
+
+
+[INTERNAL CSS]
+To apply changes throughout the doc,in head add an attribute 
+     <style>    </style> (write in between, all the tags on which you want to apply the changes on your site)
+
+     <style>
+     
+       body{
+           background-color :pink;   
+       }
+     
+     </style>
+
+[EXTERNAL CSS]
+To apply changes to all the sites, external file is made,(e.g style.css)
+   style.css
+     [                                                 /*consists of all the tags of the syle attribute*/
+         body{
+            background-color :#EAF6F6;   
+        }
+        hr{
+            
+            border-style: dotted none none; 
+            height: 0px;
+            width: 5%;
+            border-color: grey;
+            border-width: 5px;
+        }
+        img{
+             height: 500px;
+        }
+     ]
+
+     add in the site(in which you want to add the styling)
+     /*  <link rel="stylesheet" href="address\style.css">      */
+
+
+
+PRIORITY IN CSS
+INLINE > INTERNAL > EXTERNAL
+
+
+
+in css ..format-->
+   who{ 
+     what : how;
+     what : how;
+     what : how;
+   }
+
+
+
+# The id and class may seem to be same as both of them overwrite the tag selectors , but the difference is that there can be only one unique 
+tag with some specific "id name" but more than one tags can have the same class name.(id - unique, class - many)
+# The id can be used only once while class can be used again n again.. ( brocolli and brocolli circular)
+
+
+
+#FAVICON 
+icon at the title.
+
+
+margin: top right bottom left;

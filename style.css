@@ -1,0 +1,59 @@
+/*//////////////////////////////////////////*tag selectors////////////////////////////////////////////////////////*/
+
+body{
+    background-color :#EAF6F6;   
+}
+hr{
+    background-color :white;
+    border-style: none;         /*with none if we apply more values it is applied acc to prefernce*/
+    border-top-style: dotted;   /*specific value to top of the hr*/
+    border-color: grey;
+    border-width: 5px;
+    height: 5px;
+    width: 30%;
+}
+img:hover{                       /* the hiver tag changes the specs when the cursore hovers on the specified element on the page*/
+     background-color: gold;
+     border-radius: 50%;
+     border-color: black;
+     border-width: 50px;
+}
+h1{
+    color: #66BFBF;
+}
+h3{
+    color: palevioletred;
+}
+
+
+
+/*/////////////////////////////////////////// class selectors////////////////////////////////////////////*/
+
+.name{
+  color: pink;
+  height: 50px;
+  background-color: black;
+}
+.pic{
+    background-color: lightsalmon;
+    border-radius: 50px;
+    height: 500px;
+}
+.sur{
+    border-radius: 1000px;
+    
+}
+
+.like{
+    color: grey;
+    height:10px;
+}
+.hi{
+    color: green;
+}
+
+/*/////////////////////////////////////////// IDS selectors////////////////////////////////////////////*/
+#heading
+{
+    color: orange;
+}
